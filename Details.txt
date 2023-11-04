@@ -1,0 +1,86 @@
+
+Topics:
+
+  1. Table:
+      col-span, row-span
+
+  1.0: tags:
+          h1, 
+          input( attributes --> type, id ), 
+          img( attributes -> src, width, height)
+          a( attributes --> href, target )
+
+  2. form:
+      form is used to get data/info from the user
+
+        Sample:
+          1. name
+          2. contact number
+          3. email
+          4. age
+          5. gender ( only single value can be selected )
+          6. ID Proofs You have: ( multiple values can be selected )
+              Aadhar, PAN, DL, Passport
+
+      input ( type, value, id, name )
+      label ( for value should be the id of the input element )
+      value attribute can be used to set default value
+      readonly will make the input non editable
+      disabled will disable the input
+      required will make the input as required field
+
+      input grouping
+        radio, checkbox
+
+      dropdown --> select tag
+
+      audio, video tags
+
+  3. What is css? 
+
+      HTML: Skeleton of a webpage
+
+      CSS - Casecading Style Sheet or **Style Provider/Skin Makeup for the Skeleton**
+        language used to style a webpage using CSS selectors
+
+        property & value:
+          has a lot of specific proerties with specified property values
+        
+        css selectors:
+          body {
+            // property: value; for the body element
+          }
+
+          div, span {
+            // property: value; for the div & span element
+          }
+  
+  4. ways to use css:
+    inline, internal, external
+
+    inline:
+      using style attribute on any element/tag
+
+    internal:
+      1. using style tag in the head element
+      2. using css selector to style any element/tag
+
+    External Styling:
+      using external stylesheet for styling
+
+Task:
+  https://github.com/rvsp/HTML-CSS/blob/master/Mini-tasks/001-HTML.md
+
+  Finish: 6, 8, 9, 11
+
+Next Session:
+
+Next Session is at 4PM Sunday ( 2023-11-05 ) will be handled by new Mentor, Please co-ordinate with Him.
+
+CSS:
+  6. display property: inline, block
+
+  7. class vs id 
+
+  8. prorities use of important
+    

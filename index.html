@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="index.js"></script>
+    <style>
+      body {
+        text-align: center;
+        background-color: aquamarine;
+        /* width: 100px; */
+        border: 10px solid red;
+        color: red;
+      }
+      /* Writing the CSS codes needed */
+      td {
+        text-align: center;
+      }
+      table,
+      td,
+      th,
+      tr {
+        border: 1px solid;
+        border-collapse: collapse;
+        background-color: black;
+      }
+    </style>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Table</h1>
+    <table>
+      <thead>
+        <tr>
+          <th rowspan="2">Name</th>
+          <th colspan="2">Score</th>
+          <th rowspan="2">Percentage</th>
+        </tr>
+        <tr>
+          <th>Total</th>
+          <th>Mark</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Sam</td>
+          <td>100</td>
+          <td>93</td>
+          <td>93</td>
+        </tr>
+        <tr>
+          <td>Danial</td>
+          <td>100</td>
+          <td>98</td>
+          <td>98</td>
+        </tr>
+        <tr>
+          <td>Anderson</td>
+          <td>100</td>
+          <td>96</td>
+          <td>96</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <br />
+    <br />
+
+    <!-- inline styling -->
+    <div style="height: 100px; width: 100px; background-color: blue"></div>
+
+    <!-- External Styling -->
+    <span>B52WETAMIL</span>
+
+    <form>
+      <label for="name">Name:</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        value="sanjay"
+        readonly
+        disabled
+      /><br />
+      <label for="dob">Dob:</label>
+      <input type="date" id="dob" name="dob" value="2023-11-12" /><br />
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        required
+        placeholder="Eg: john@gmail.com"
+        value="sanjay@gmail.com"
+      /><br />
+      <label for="telephone">Telephone:</label>
+      <input type="tel" id="telephone" name="telephone" /><br />
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" /><br />
+      <label for="file">File:</label>
+      <input type="file" id="file" name="file" /><br />
+      <label for="time" name="time">Time:</label>
+      <input type="time" id="time" name="time" /><br />
+      <label>Gender:</label>
+      <input type="radio" id="male" name="gender" />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" />
+      <label for="female">Fe-Male</label>
+      <input type="radio" id="others" name="gender" />
+      <label for="others">Other</label>
+      <br />
+      <label>Id Proofs:</label>
+      <input type="checkbox" id="aadhar" name="id-proofs" />
+      <label for="aadhar">Aadhar</label>
+      <input type="checkbox" id="drive-license" name="id-proofs" />
+      <label for="drive-license">Drive License</label>
+      <input type="checkbox" id="pan" name="id-proofs" />
+      <label for="pan">PAN</label>
+      <br />
+      <select id="city" name="city">
+        <option value="">Select City</option>
+        <option value="chn">Chennai</option>
+        <option value="blr">Bengaluru</option>
+        <option value="del">Delhi</option>
+      </select>
+      <select id="city-two" name="cityTwo">
+        <option value="">Select City</option>
+        <optgroup label="India">
+          <option value="chn">Chennai</option>
+          <option value="blr">Bengaluru</option>
+          <option value="del">Delhi</option>
+        </optgroup>
+        <optgroup label="United States">
+          <option value="tex">Texas</option>
+          <option value="ny">New York</option>
+          <option value="NJ">New Jersey</option>
+        </optgroup>
+        <optgroup label="Australia">
+          <option value="sdyn">Syndney</option>
+          <option value="can">Canberra</option>
+          <option value="perth">Perth</option>
+        </optgroup>
+      </select>
+      <br />
+      <input type="submit" />
+      <input type="reset" />
+    </form>
+    <audio controls>
+      <source src="horse.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <video width="320" height="240" controls>
+      <source src="movie.mp4" type="video/mp4" />
+    </video>
+  </body>
+</html>
